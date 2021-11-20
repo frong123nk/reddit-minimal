@@ -1,0 +1,21 @@
+.subload-loading {
+    margin: var(--spacing-2);
+}
+
+.skeleton-main-subload {
+    padding: var(--spacing-1) 0 0;
+}
+
+.skeleton-main-subload div {
+    padding-bottom: var(--spacing-1);
+}
+
+.skeleton-subload-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skeleton-subload-details > :first-child {
+    margin-right: var(--spacing-1);
+}

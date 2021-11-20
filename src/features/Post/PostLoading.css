@@ -1,0 +1,31 @@
+.post-loading {
+    font-size: 20;
+    line-height: 2;
+    margin-bottom: var(--spacing-3);  
+}
+
+.skeleton-post-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar-skeleton {
+    margin-right: var(--spacing-0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.avatar-skeleton > :first-child {
+    display: flex;
+}
+
+.skeleton-main-post {
+    padding: var(--spacing-2);
+}
+
+.skeleton-comments-container {
+    border-top: solid 1px var(--color-bind);
+    padding: var(--spacing-0) var(--spacing-2);
+}

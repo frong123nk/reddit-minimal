@@ -1,0 +1,16 @@
+.card {
+    border: solid 1px var(--color-bind);
+    width: 100%;
+    border-radius: var(--radius2);
+    background-color: var(--color-foreground);
+    color: var(--color-text-body);
+    margin-bottom: var(--spacing-2);
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    
+    main .card {
+        margin-bottom: var(--spacing-2);
+    }
+}
